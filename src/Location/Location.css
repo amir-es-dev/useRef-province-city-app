@@ -1,0 +1,27 @@
+.location {
+  /* background-color: #ff4268; */
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+.location h4 {
+  color: white;
+  margin: 0.5rem 0;
+}
+
+select {
+  width: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+}
+
+.cityBox,
+.provinceBox {
+  position: relative;
+}
+.location .anticon-close-circle {
+  position: absolute;
+  left: 1rem;
+  top: 2px;
+}
